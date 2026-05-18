@@ -1,0 +1,144 @@
+.top {
+    padding: 100px 0;
+}
+
+.top_wrapper {
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_title {
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--main-color);
+}
+
+.top_filters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter_input {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-color);
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    padding: 15px 30px;
+}
+
+.filter_input.input-year {
+    width: 115px;
+}
+
+.filter_input.input-title {
+    width: 300px;
+}
+
+.filter_input::placeholder {
+    color: var(--main-color-opacity);
+}
+
+.top_rating-card {
+    display: flex;
+    align-items: start;
+    color: var(--main-color);
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.top_rating-place {
+    font-weight: 600;
+    color: var(--main-color);
+    margin-top: -5px;
+}
+
+.top_rating-place.grand-place {
+    font-size: 100px;
+    color: var(--accent-color);
+    margin-right: 40px;
+    margin-top: -15px;
+}
+
+.top_rating-place.top-place {
+    margin-right: 48px;
+    font-size: 70px;
+}
+
+.top_rating-place.middle-place {
+    margin-right: 39px;
+    font-size: 50px;
+}
+
+.top_rating-place.bottom-place {
+    margin-right: 45px;
+    font-size: 40px;
+}
+
+.top_rating-info {
+    max-width: 600px;
+    margin-right: 85px;
+}
+
+.top_rating-img {
+    border-radius: 10px;
+    background-color: grey;
+    margin-right: 50px;
+    width: 170px;
+    height: 241px;
+}
+
+.top_rating-title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.top_rating-desc {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.top_rating-number {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.top_rating-data {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.data-item_title {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.data-item_text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.not-found {
+    color: var(--main-color);
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.top_rating-link {
+    color: var(--main-color);
+    transition: var(--transition);
+}
+
+.top_rating-link:hover {
+    color: var(--accent-color);
+}

@@ -1,0 +1,86 @@
+.film {
+    padding: 100px 0;
+    color: var(--main-color);
+}
+
+.film_title {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.film_wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.film_img {
+    background-color: grey;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.film_info {
+    max-width: 660px;
+}
+
+.film_desc {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.film_ganres {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.film_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.film_data-title {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.film_data-number {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.film_rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.film_actors-title {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.film_actors-list {
+    list-style-image: url("../img/marker.svg");
+    list-style-position: inside;
+}
+
+.film_actors-item {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.similar_cards {
+    margin-bottom: 100px;
+}

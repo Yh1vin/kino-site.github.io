@@ -1,0 +1,277 @@
+@media (max-width: 1500px) {
+    .modal {
+        left: 15%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .modal {
+        left: 10%;
+    }
+}
+
+
+@media (max-width: 1220px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .film_img {
+        width: 400px;
+    }
+
+    .modal {
+        width: 800px;
+        left: 15%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .container {
+        max-width: 850px;
+    }
+
+    .hero {
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+
+    .film_desc {
+        font-size: 18px;
+    }
+
+    .film_rating {
+        margin-bottom: 50px;
+    }
+
+    .modal {
+        width: 700px;
+        left: 15%;
+    }
+}
+
+@media (max-width: 900px) {
+    .film_data {
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+        gap: 20px;
+    }
+
+    .film_data-title {
+        font-size: 16px;
+    }
+
+    .film_rating svg {
+        width: 30px;
+        height: 28px;
+    }
+
+    .film_rating {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 870px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .hero_title {
+        font-size: 100px;
+    }
+
+    .hero_text {
+        font-size: 22px;
+    }
+
+    .hero_cta {
+        font-size: 18px;
+    }
+
+    .film_granres {
+        margin-bottom: 20px;
+    }
+
+    .film_data {
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .film_data-title {
+        font-weight: 500;
+    }
+
+    .film_rating {
+        margin-bottom: 20px;
+    }
+
+    .film_actors-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+
+    .film_rating svg {
+        width: 25px;
+        height: 22px;
+    }
+
+    .top__rating-card {
+        flex-direction: column;
+    }
+
+    .top_rating-img {
+        margin-bottom: 30px;
+    }
+
+    .top_rating-info {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .top_rating-data {
+        flex-direction: row;
+    }
+
+    .top_wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .modal {
+        width: 600px;
+    }
+
+    .modal_wrapper {
+        flex-direction: column;
+    }
+
+    .modal_img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .film_wrapper {
+        flex-direction: column;
+    }
+
+    .film_data {
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 620px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .header_menu-burger {
+        display: block;
+    }
+
+    .header_menu-list {
+        display: none;
+    }
+
+    .header_menu-list.menu-list--active {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 15px;
+        position: absolute;
+        background-color: var(--main-color);
+        padding: 25px 10px 10px;
+        right: 0px;
+        width: 200px;
+        top: 65px;
+    }
+
+
+    .header_cta {
+        display: none;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero_title {
+        font-size: 80px;
+    }
+
+    .hero_text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .footer_wrapper-bottom {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .top_filters {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero_title {
+        font-size: 60px;
+    }
+
+    .hero_text {
+        font-size: 18px;
+    }
+
+    .hero_cta {
+        padding: 18px 20px;
+        max-width: 150px;
+    }
+
+    .film_img {
+        width: 280px;
+    }
+
+    .film_data {
+        justify-content: center;
+    }
+
+    .top__rating-data {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero {
+        padding: 80px 0;
+    }
+
+    .subscribe {
+        padding-bottom: 50px;
+    }
+
+    .movies {
+        padding: 50px 0;
+    }
+}

@@ -1,0 +1,341 @@
+:root {
+    --main-color: #131313;
+    --main-color-opacity: rgba(19, 19, 19, .7);
+    --secondary-color: #FFFFFF;
+    --accent-color: #8502FF;
+    --accent-color-hoover: #6800ca;
+    --transition: all .3s ease-in;
+}
+
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--main-color);
+    padding: 15px 0;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--main-color);
+    margin-bottom: 30px;
+}
+
+.header_menu-burger {
+    display: none;
+    cursor: pointer;
+}
+
+.header_menu-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header_menu-link {
+    color: var(--secondary-color);
+    font-size: 16px;
+    transition: var(--transition);
+}
+
+.header_menu-link:hover {
+    color: var(--accent-color);
+}
+
+.header_cta {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 20px;
+    transition: var(--transition);
+}
+
+.header_cta:hover {
+    background-color: var(--accent-color-hoover);
+}
+
+.main {
+    flex: 1;
+}
+
+.hero {
+    background-image: url("../img/hero_bg.webp");
+    padding-top: 200px;
+    padding-bottom: 183px;
+    background-size: cover;
+}
+
+.hero_title {
+    font-weight: 600;
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.hero_text {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: var(--main-color);
+}
+
+.hero_cta {
+    font-size: 20px;
+    color: var(--main-color);
+    border-radius: 20px;
+    background-color: var(--accent-color);
+    transition: var(--transition);
+    padding: 20px 30px;
+    max-width: 185px;
+    text-align: center;
+}
+
+.hero_cta:hover {
+    background-color: var(--accent-color-hoover);
+}
+
+.movies {
+    padding: 100px 0;
+}
+
+.movies_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.movies_card {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    width: 270px;
+    color: var(--main-color);
+}
+
+.movies_card-img {
+    background-color: var(--main-color);
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.movies_card-title {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 14px;
+    min-height: 45px;
+}
+
+.movies_card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.movies_card-data {
+    font-size: 16px;
+}
+
+.movies_card-link {
+    color: var(--main-color);
+    font-size: 16px;
+    border: 1px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 16px 20px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.movies_card-link:hover {
+    color: var(--accent-color);
+}
+
+.movies_pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.movies_pagination-item {
+    font-size: 16px;
+    color: var(--main-color);
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 1px solid var(--accent-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.movies_pagination-item.item--active{
+    background-color: var(--accent-color);
+}
+
+.subscribe {
+    background-color: var(--accent-color);
+    color: var(--main-color);
+    padding: 30px 0 70px;
+}
+
+.subscribe_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subscribe_text {
+    font-size: 16px;
+}
+
+.subscribe_form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.subscribe_form-input {
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    padding: 15px 30px;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+}
+
+.subscribe_form-input::placeholder {
+    color: var(--main-color-opacity);
+}
+
+.subscribe_form-btn {
+    font-size: 16px;
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    border-radius: 20px;
+    padding: 20px 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.subscribe_form-btn:hover {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding: 30px 0;
+}
+
+.footer_wrapper-top {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer_menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1ex;
+    align-items: center;
+}
+
+.footer_menu-link {
+    color: var(--secondary-color);
+    transition: var(--transition);
+    font-size: 16px;
+}
+
+.footer_menu-link:hover {
+    color: var(--accent-color);
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+
+.footer_contacts-item {
+    color: var(--secondary-color);
+    transition: var(--transition);
+    font-size: 16px;
+}
+
+.footer_contacts-item-img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footer_contacts-item:hover {
+    color: var(--accent-color);
+}
+
+.footer_wrapper-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_contacts-pol {
+    color: var(--secondary-color);
+    transition: var(--transition);
+    font-size: 16px;
+}
+
+.footer_contacts-pol:hover {
+    color: var(--accent-color);
+}
+
+.footer_contacts-copy {
+    color: var(--secondary-color);
+    font-size: 16px;
+}
+
+.politik{
+    padding: 100px 0;
+}
+
+.politik h1{
+    margin-bottom: 30px;
+}
+
+.politik p{
+    margin-bottom: 15px;
+}
